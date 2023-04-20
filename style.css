@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+.pointsZs{
+  display: flex;
+  flex-direction: row;
+}
+
+.points{
+  
+}
+
 .zs{
     display: flex;
     align-items: center;
@@ -13,4 +22,12 @@
 .zs img{
   width:4rem;
   height: 4rem;
+}
+
+header{
+  margin-left: 2em;
+}
+
+.points{
+
 }
