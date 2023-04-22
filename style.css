@@ -4,14 +4,19 @@
     box-sizing: border-box;
 }
 
+html, body {
+  min-height: 100%;
+}
+
 .pointsZs{
   color:#A555EC;
   display: flex;
   flex-direction: row;
+
 }
 
 .pointsList li{
- padding:1em; 
+  padding:0.8rem;
 }
 
 .points{
@@ -77,10 +82,16 @@ main{
   width:100%;
 }
 
+.about{
+  
+}
+
 .about h1{
   margin: 1rem;
   color:#A555EC;
+  text-shadow: 2px 4px 4px rgba(143, 102, 148, 0.6);
 }
+
 
 .about p{
   color: #4C024E;
@@ -96,5 +107,18 @@ main{
   bottom:0;
   right:0;
   width:50vh;
-  height:50vh;
+  height:58vh;
+}
+
+footer{
+  width:100%;
+  position: fixed;
+  bottom:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+}
+
+footer img{
+  width:6rem;
 }
