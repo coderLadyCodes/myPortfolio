@@ -10,30 +10,26 @@ html, body {
 }
 
 .pointsZs{
+  width:100%;
   color:#A555EC;
   display: flex;
-  flex-direction: row;
-
-}
-
-.pointsList li{
-  padding:0.8rem;
+ justify-content:center;
+ align-items: center;
 }
 
 .points{
-  flex:1;
-  margin-left: 2em;
-  padding-top:1em;
+  position:absolute;
+  top:2rem;
+  left:2rem;
 }
 
-.zs{
-flex:2;
+.pointsList  li{
+  margin-top:2rem;
 }
 
 .zs img{
-  width:6rem;
-  height: 6rem; 
-  margin-top:2rem;
+  width:8rem;
+  height:8rem; 
 }
 
 
@@ -42,7 +38,7 @@ aside{
   flex-direction:row;
   align-items: flex-start;
   justify-content: flex-start;
-  margin:0;
+  margin-top:10rem;
 }
 
 aside ul li{
@@ -60,6 +56,7 @@ text-decoration: none;
  margin:2rem;
  color:#A555EC;
  cursor: pointer;
+ font-size:1.8em;
 }
 
 aside a:hover{
@@ -70,32 +67,53 @@ aside a:hover{
 nav::after{
   content:'';
   position:absolute;
-  bottom:0;
+  bottom:1rem;
   left:0;
   width:0.2vh;
-  height: 35vh;
-  margin-left: 1rem;
-  margin-bottom: 2rem;
-  background-color:#A555EC;
+  height: 36vh;
+  margin-left: 0.8rem;
+  margin-bottom: 1rem;
+  background-color: #A555EC;
 }
 
 main{
   width:100%;
 }
 
-.about{
-  
+.cv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding:0;
+}
+
+.cv a{
+  margin:0;
+  padding:0.4rem;
+  border-radius:20rem;
+  animation: cvanimation 6s infinite;
+  animation-delay: -4s;
+  animation-timing-function:ease-in-out;
+}
+
+@keyframes cvanimation {
+  from {background-color: rgb(237, 178, 232);}
+  to {background-color: #4C024E;}
 }
 
 .about h1{
   margin: 1rem;
   color:#A555EC;
   text-shadow: 2px 4px 4px rgba(143, 102, 148, 0.6);
+  letter-spacing: 2px;
 }
 
 
 .about p{
   color: #4C024E;
+  line-height: 1.8rem;;
 }
 
 .about h1, p{
@@ -108,12 +126,13 @@ main{
   bottom:0;
   right:0;
   width:50vh;
-  height:58vh;
+  height:56vh;
 }
 
 .socials{
-  width:20%;
-  margin-left:1em;
+  margin-top:4rem;
+  width:4em;
+  margin-left:1.4em;
   display:flex;
   flex-direction: column;
 }
@@ -121,7 +140,7 @@ main{
 .socials img{
   width:2.6em;
   height:2.6em;
-  margin-top:1.4em;
+  margin-top:2em;
 }
 
 footer{
