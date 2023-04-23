@@ -111,6 +111,19 @@ main{
   height:58vh;
 }
 
+.socials{
+  width:20%;
+  margin-left:1em;
+  display:flex;
+  flex-direction: column;
+}
+
+.socials img{
+  width:2.6em;
+  height:2.6em;
+  margin-top:1.4em;
+}
+
 footer{
   width:100%;
   position: fixed;
