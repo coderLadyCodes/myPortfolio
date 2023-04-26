@@ -7,7 +7,7 @@
 
 html, body {
   min-height: 100%;
-  background-color: rgb(251, 207, 247); /* NOT SURE */
+  background-color: rgb(29, 1, 45);/*  rgb(251, 207, 247); NOT SURE */
 }
 
 .pointsZs{
@@ -29,8 +29,8 @@ html, body {
 }
 
 .zs img{
-  width:8rem;
-  height:8rem; 
+  width:6rem;
+  height:6rem; 
 }
 
 
@@ -39,12 +39,20 @@ aside{
   flex-direction:row;
   align-items: flex-start;
   justify-content: flex-start;
-  margin-top:10rem;
   margin-left:0.6rem;
 }
 
 aside ul li{
   list-style: none;
+  
+}
+
+.sidenav{
+  margin-top: 12rem;
+}
+
+.sidenav a{
+  margin-top: 2rem;
 }
 
 aside li{
@@ -56,10 +64,9 @@ aside a{
 cursor: pointer;
 text-decoration: none;
  font-family:cursive; 
- margin:2rem;
  color:#A555EC;
  cursor: pointer;
- font-size:1.4em;
+ font-size:0.9rem;
  padding:0.4rem;
  border: 1px solid #f78cfb;
  border-radius:50%;
@@ -73,7 +80,7 @@ aside a:hover{
 nav::after{
   content:'';
   position:absolute;
-  bottom:1rem;
+  bottom:0;
   left:0;
   width:0.2vh;
   height: 36vh;
@@ -81,6 +88,7 @@ nav::after{
   margin-bottom: 1rem;
   background-color: #A555EC;
 }
+
 
 main{
   width:100%;
@@ -109,8 +117,9 @@ main{
   to {background-color: #4C024E;}
 }
 
+
 .about h1{
-  margin: 2rem;
+  margin: 1rem;
   color:#A555EC;
   text-shadow: 2px 4px 4px rgba(143, 102, 148, 0.6);
   letter-spacing: 2px;
@@ -121,7 +130,7 @@ main{
   color: #4C024E;
   line-height: 2rem;
   letter-spacing: 1px;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
 }
 
 .about h1, p{
@@ -134,12 +143,12 @@ main{
   bottom:0;
   right:0;
   width:50vh;
-  height:56vh;
+  height:54vh;
 }
 
 .socials{
-  margin-top:4rem;
-  width:4em;
+  margin-top:2rem;
+  width:2rem;
   margin-left:1.4em;
   display:flex;
   flex-direction: column;
@@ -147,9 +156,9 @@ main{
 }
 
 .socials img{
-  width:2.6em;
-  height:2.6em;
-  margin-top:2em;
+  width:2rem;
+  height:2rem;
+  margin-top:1.2rem;
 }
 
 footer{
