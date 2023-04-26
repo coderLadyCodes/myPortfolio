@@ -20,7 +20,7 @@ html, body {
 
 .points{
   position:absolute;
-  top:2rem;
+  top:1rem;
   left:2rem;
 }
 
@@ -48,7 +48,7 @@ aside ul li{
 }
 
 .sidenav{
-  margin-top: 12rem;
+  margin-top: 10rem;
 }
 
 .sidenav a{
@@ -83,7 +83,7 @@ nav::after{
   bottom:0;
   left:0;
   width:0.2vh;
-  height: 36vh;
+  height: 34vh;
   margin-left: 0.8rem;
   margin-bottom: 1rem;
   background-color: #A555EC;
@@ -147,8 +147,6 @@ main{
 }
 
 .socials{
-  margin-top:2rem;
-  width:2rem;
   margin-left:1.4em;
   display:flex;
   flex-direction: column;
@@ -158,7 +156,7 @@ main{
 .socials img{
   width:2rem;
   height:2rem;
-  margin-top:1.2rem;
+  margin-top:0.8rem;
 }
 
 footer{
