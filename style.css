@@ -20,12 +20,12 @@ html, body {
 
 .points{
   position:absolute;
-  top:1rem;
+  top:0;
   left:2rem;
 }
 
 .pointsList  li{
-  margin-top:2rem;
+  margin-top:1.4rem;
 }
 
 .zs img{
@@ -43,16 +43,15 @@ aside{
 }
 
 aside ul li{
-  list-style: none;
-  
+  list-style: none; 
 }
 
 .sidenav{
-  margin-top: 10rem;
+  margin-top:8rem;
 }
 
 .sidenav a{
-  margin-top: 2rem;
+  margin-top: 1.6rem;
 }
 
 aside li{
@@ -66,7 +65,7 @@ text-decoration: none;
  font-family:cursive; 
  color:#A555EC;
  cursor: pointer;
- font-size:0.9rem;
+ font-size:0.8rem;
  padding:0.4rem;
  border: 1px solid #f78cfb;
  border-radius:50%;
@@ -128,7 +127,7 @@ main{
 
 .about p{
   color: #4C024E;
-  line-height: 2rem;
+  line-height: 1rem;
   letter-spacing: 1px;
   font-size: 0.9rem;
 }
@@ -153,10 +152,11 @@ main{
   z-index: 10;
 }
 
+
 .socials img{
   width:2rem;
   height:2rem;
-  margin-top:0.8rem;
+  margin-top:1rem;
 }
 
 footer{
