@@ -6,7 +6,7 @@
 }
 
 html, body {
-  min-height: 100%;
+  min-height: 100vh;
   background-color: rgb(29, 1, 45);/*  rgb(251, 207, 247); NOT SURE */
 }
 
