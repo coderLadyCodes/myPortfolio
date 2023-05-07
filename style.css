@@ -6,6 +6,7 @@
 
 html, body {
   min-height: 100vh;
+  overflow: hidden;
   background-color: rgb(237, 209, 254); /* rgb(251, 207, 247); NOT SURE */
 }
 
@@ -58,17 +59,26 @@ aside li{
 
 .sidenav a{
   margin-top: 12vh;
+  outline: none;
 cursor: pointer;
 text-decoration: none;
  font-family:cursive; 
- color:#D96CFF;
+ color:rgb(237, 209, 254);
  cursor: pointer;
- font-size:0.8rem;
+ font-size:1rem;
  padding:0.4rem;
- /*border: 1px solid #f78cfb;*/
- background: #7703a5;
+ /*border: 1px solid #f78cfb;
+ background: #7703a5;*/
  border-radius:10%;
- z-index:20;
+ animation: navanimation linear 6s infinite alternate;
+}
+
+@keyframes navanimation {
+  0%   {background-color:#CF13C8;}
+  25%  {background-color:#D7A5D5;}
+  50%  {background-color:#4F074D;}
+  75%  {background-color: #9E0F99;}
+  100% {background-color:#572755;}
 }
 
 .sidenav a:hover{
@@ -179,11 +189,21 @@ main{
 
 .about .workinggirl{
   position:absolute;
-  bottom:0;
+  bottom:2%;
   right:0;
-  width:44vh;
-  height:50vh;
-  z-index:0;
+  width:40vh;
+  height:44vh;
+}
+
+.workinggirl{
+  animation: workgirl 4s linear infinite;
+}
+
+@Keyframes workgirl {
+  50%{
+    right:0;
+    bottom:0;
+  }
 }
 
 .socials{
