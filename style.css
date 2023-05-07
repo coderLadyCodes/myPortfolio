@@ -102,7 +102,7 @@ main{
   margin: 0;
   padding:0;
 }
-
+/*
 .cv a{
   text-decoration: none;
   font-family:cursive; 
@@ -120,7 +120,41 @@ main{
   from {background-color: rgb(237, 178, 232);}
   to {background-color: #4C024E;}
 }
+*/
 
+.cv a{
+  text-decoration: none;
+  font-family:cursive; 
+  font-size:1.2rem;
+  cursor: pointer;
+  color:#D96CFF;
+  margin:0;
+  padding:0.4rem;
+  background: linear-gradient(to right, #D96CFF 0, white 10%, #D96CFF 20%);
+  background-position: 0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 8s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  white-space: nowrap;
+ animation-delay: 0s;
+}
+
+@keyframes shine{
+  0%{
+    background-position: 0;
+  }
+  
+60%{
+  background-position: 180px;
+}
+  
+100%{
+  background-position: 180px;
+} 
+}
 
 .about h1{
   margin: 2rem;
@@ -169,7 +203,7 @@ main{
 .socials img{
   width:1.8rem;
   height:1.8rem;
-  margin:1rem;
+  margin:0.6rem;
 }
 
 footer{
