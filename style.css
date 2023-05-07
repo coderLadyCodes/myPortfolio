@@ -179,7 +179,7 @@ main{
   line-height: 1.2rem;
   letter-spacing: 1px;
   font-size: 1rem;
-  margin: 1rem;
+  margin: 1.2rem;
 }
 
 .about h1, p{
@@ -192,16 +192,16 @@ main{
   bottom:2%;
   right:0;
   width:40vh;
-  height:44vh;
+  height:50vh;
 }
 
-.workinggirl{
+.workinggirl:hover{
   animation: workgirl 4s linear infinite;
 }
 
-@Keyframes workgirl {
+@Keyframes workgirl{
   50%{
-    right:0;
+    right:-1%;
     bottom:0;
   }
 }
@@ -214,7 +214,6 @@ main{
 }
 
 .socials a{
-  border: none;
   padding:0;
   cursor: pointer;
 }
@@ -224,12 +223,25 @@ main{
   width:1.8rem;
   height:1.8rem;
   margin:0.6rem;
+  border-radius: 50%;
+  animation: socialmedia 10s linear infinite normal;
+}
+
+.socials img:hover{
+  animation:none;
+}
+
+@Keyframes socialmedia{
+  50%{
+   background-color:#CF13C8;
+
+  }
 }
 
 footer{
   width:100%;
   position: fixed;
-  bottom:0;
+  top:98vh;
   left:0;
   display: flex;
   justify-content: center;
