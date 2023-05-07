@@ -253,11 +253,11 @@ footer img{
 @media only screen and (min-width: 700px){
 
   .pointsList li{
-    margin-top:4rem;
+    margin-top:3.2rem;
   }
 
   .sidenav{
-    margin-top:22vh;
+    margin-top:21vh;
     margin-left:0.4rem;
   }
 
@@ -267,7 +267,7 @@ footer img{
   }
 
   nav::after{
-    height: 31vh;
+    height: 30vh;
   }
 .zs img{
   width:10rem;
@@ -275,18 +275,18 @@ footer img{
 }
 
 .about h1{
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 .about p{
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   line-height: 2rem;
   letter-spacing: 1px;;
 }
 
 .socials img{
-  width:3rem;
-  height:3rem;
+  width:2.4rem;
+  height:2.4rem;
   margin:1.6rem;
 }
 
