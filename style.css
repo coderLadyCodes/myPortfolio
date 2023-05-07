@@ -58,8 +58,8 @@ aside li{
 }
 
 .sidenav a{
-  margin-top: 12vh;
-  outline: none;
+margin-top: 12vh;
+outline: none;
 cursor: pointer;
 text-decoration: none;
  font-family:cursive; 
@@ -187,7 +187,7 @@ main{
   font-family: cursive;
 }
 
-.about .workinggirl{
+ .workinggirl{
   position:absolute;
   bottom:2%;
   right:0;
@@ -233,7 +233,7 @@ main{
 
 @Keyframes socialmedia{
   50%{
-   background-color:#CF13C8;
+   background-color:#d7b0d6;
 
   }
 }
@@ -249,4 +249,52 @@ footer{
 
 footer img{
   width:6rem;
+}
+@media only screen and (min-width: 700px){
+
+  .pointsList li{
+    margin-top:4rem;
+  }
+
+  .sidenav{
+    margin-top:22vh;
+    margin-left:0.4rem;
+  }
+
+  .sidenav a {
+    font-size:1.1rem;
+    padding:0.4rem;
+  }
+
+  nav::after{
+    height: 31vh;
+  }
+.zs img{
+  width:10rem;
+  height:10rem;
+}
+
+.about h1{
+  font-size: 2rem;
+}
+
+.about p{
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 1px;;
+}
+
+.socials img{
+  width:3rem;
+  height:3rem;
+  margin:1.6rem;
+}
+
+ .workinggirl {
+  position:absolute;
+  bottom:1%;
+  right:0;
+  width:50vh;
+  height:60vh;
+}
 }
