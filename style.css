@@ -105,6 +105,8 @@ main{
 }
 
 .cv a{
+  text-decoration: none;
+  font-family:cursive; 
   margin:0;
   padding:0.4rem;
   border-radius:20rem;
