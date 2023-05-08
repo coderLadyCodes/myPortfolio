@@ -241,10 +241,11 @@ main{
 footer{
   width:100%;
   position: fixed;
-  top:98vh;
+  top:97.8vh;
   left:0;
   display: flex;
   justify-content: center;
+  background-color: rgb(237, 209, 254);
 }
 
 footer img{
