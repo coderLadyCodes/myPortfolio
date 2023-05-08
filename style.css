@@ -265,6 +265,7 @@ footer img{
   .sidenav a {
     font-size:1rem;
     padding:0.2rem;
+    font-family:cursive; 
   }
 
   nav::after{
@@ -277,12 +278,14 @@ footer img{
 
 .about h1{
   font-size: 1.8rem;
+  font-family:cursive; 
 }
 
 .about p{
   font-size: 1.2rem;
   line-height: 2rem;
-  letter-spacing: 1px;;
+  letter-spacing: 1px;
+  font-family:cursive; 
 }
 
 .socials img{
@@ -293,9 +296,20 @@ footer img{
 
  .workinggirl {
   position:absolute;
-  bottom:1%;
-  right:0;
-  width:50vh;
-  height:60vh;
+  bottom:0;
+  right:-2rem;
+  width:80vh;
+  height:80vh;
+}
+
+.workinggirl:hover{
+  animation: workgirl 4s linear infinite;
+}
+
+@Keyframes workgirl{
+  50%{
+    right:-1.6rem;
+    bottom:2%;
+  }
 }
 }
