@@ -192,7 +192,7 @@ main{
   bottom:2%;
   right:0;
   width:40vh;
-  height:50vh;
+  height:45vh;
 }
 
 .workinggirl:hover{
@@ -262,12 +262,12 @@ footer img{
   }
 
   .sidenav a {
-    font-size:1.1rem;
+    font-size:1rem;
     padding:0.4rem;
   }
 
   nav::after{
-    height: 30vh;
+    height: 28vh;
   }
 .zs img{
   width:10rem;
