@@ -253,11 +253,11 @@ footer img{
 @media only screen and (min-width: 700px){
 
   .pointsList li{
-    margin-top:3.2rem;
+    margin-top:3rem;
   }
 
   .sidenav{
-    margin-top:21vh;
+    margin-top:20vh;
     margin-left:0.4rem;
   }
 
