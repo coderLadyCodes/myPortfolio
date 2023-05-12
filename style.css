@@ -31,8 +31,20 @@ html, body {
 
 .zs img{
   width:6rem;
-  height:6rem; 
+  height:6rem;
+  animation: zslogo 40s ease-in-out;
+  transform-origin: top right;
+  animation-fill-mode: forwards;
 }
+
+@keyframes zslogo{
+  0%   {transform: rotate(45deg);}
+  25%  {transform: rotate(-110deg);}
+  50%  {transform: rotate(45deg);}
+  75%  {transform: rotate(-110deg);}
+  100% {transform: rotate(-20deg);}
+} 
+
 
 
 aside{
