@@ -249,7 +249,7 @@ footer{
 }
 
 footer img{
-  width:6rem;
+  width:8rem;
 }
 @media only screen and (min-width: 700px){
 
@@ -318,8 +318,4 @@ footer img{
     bottom:2%;
   }
 }
-}
-
-@media only screen and (min-width: 900px){
-
 }
