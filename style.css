@@ -32,7 +32,7 @@ html, body {
 .zs img{
   width:6rem;
   height:6rem;
-  animation: zslogo 20s ease-in-out;
+  animation: zslogo 10s ease-in-out;
   transform-origin: top right;
   animation-fill-mode: forwards;
 }
